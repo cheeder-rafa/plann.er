@@ -3,7 +3,6 @@ package me.cheeder.planner.link;
 import jakarta.persistence.*;
 import me.cheeder.planner.trip.Trip;
 
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Entity
