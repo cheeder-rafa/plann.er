@@ -22,10 +22,10 @@ import java.util.UUID;
 @RequestMapping("/trips")
 public class TripController {
 
-    private ParticipantService participantService;
-    private ActivityService activityService;
-    private LinkService linkService;
-    private TripRepository repository;
+    private final ParticipantService participantService;
+    private final ActivityService activityService;
+    private final LinkService linkService;
+    private final TripRepository repository;
 
     public TripController(final ParticipantService participantService,
                           final ActivityService activityService, LinkService linkService,
